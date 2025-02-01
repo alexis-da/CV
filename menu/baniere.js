@@ -3,6 +3,7 @@ const header = document.getElementById("header")
 const home = document.getElementById("home")
 const links = document.querySelectorAll(".link")
 
+
 nav.addEventListener("click", function () {
   nav.classList.toggle("active");
   header.classList.toggle("active");
@@ -12,4 +13,7 @@ nav.addEventListener("click", function () {
     element.classList.toggle("active")
   }
 });
+
+
+
 
