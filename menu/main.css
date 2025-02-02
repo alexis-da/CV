@@ -7,7 +7,7 @@ body{
 
 #header {
   padding: 8px 10px;
-  position: sticky;
+  position: relative;
   top: 0;
   z-index: 1000;
   display: flex;

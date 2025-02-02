@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 #main{
   height: 375.4px;
   background-color: #f4ece6;
@@ -8,6 +10,7 @@
   align-items: center;
   justify-content: space-around;
   z-index: 100;
+  position: relative;
 }
 
 #image img{
@@ -93,4 +96,40 @@
 .reseau{
   width: 20px;
   height: 20px;
+}
+
+#presentation{
+  background-color: #e6dace;
+  height: 450px;
+  position: absolute;
+  top: 300px;
+  z-index: 0;
+  padding-top: 210px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+#presentation p{
+  line-height: 1.7em;
+  font-size: 16px;
+  font-family: DM Sans;
+}
+
+#presentation h1{
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#presentation h3{
+  font-size: 19px;
+}
+
+#contact{
+  position: absolute;
+  z-index: 999;
+  height: 65vh;
+  width: 100vw;
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
 }
