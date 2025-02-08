@@ -1,0 +1,30 @@
+.main {
+  width: 100vw;
+  background-color: #e6dace;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bleu {
+  background-color: #116dff;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.title h1 {
+  font-weight: bolder
+}
+
+.main p {
+  text-align: center;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
