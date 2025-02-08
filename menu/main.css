@@ -11,6 +11,7 @@ body{
   top: 0;
   z-index: 1000;
   display: flex;
+  background-color: #f9fafa;
 }
 
 #container{
@@ -89,6 +90,11 @@ body{
 }
 
 /* Appliquer la transformation lorsque #nav est actif (après un clic) */
+
+#nav.active {
+  position: fixed;
+}
+
 #nav.active .deco-1 {
   transform: rotate(45deg) translate(4px, 2px);
   background-color: #20303c;
@@ -142,12 +148,18 @@ body{
   background-color: #f4ece6;
 }
 
-.apropos{
-  color: #116dff;
-  margin-top: 10vh;
-}
+
 
 .link h3{
   background-color: #f4ece6;
   font-weight: bolder;
+}
+
+.link{
+  color: black;
+}
+
+.apropos{
+  color: #116dff;
+  margin-top: 10vh;
 }
