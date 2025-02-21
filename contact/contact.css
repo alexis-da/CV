@@ -56,3 +56,10 @@ button:hover {
   align-items: center;
 }
 
+#home{
+  height: 0vh;
+}
+
+#home.active{
+  height: 100vh;
+}
