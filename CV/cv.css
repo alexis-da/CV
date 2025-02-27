@@ -62,3 +62,28 @@
   line-height: 1.6;
   margin-top: 10px;
 }
+
+
+@media screen and (min-width: 768px) {
+  .main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .experience {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    margin-left: 25vw;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+
+  .description {
+    max-width: 50%;
+  }
+
+  #xp{
+    margin-left: 15vw;
+  }
+  
+}
