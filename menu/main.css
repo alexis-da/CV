@@ -89,8 +89,6 @@ body{
   align-self:end;
 }
 
-/* Appliquer la transformation lorsque #nav est actif (après un clic) */
-
 #nav.active {
   position: fixed;
 }
