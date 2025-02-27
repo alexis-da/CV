@@ -1,0 +1,64 @@
+.main{
+  background-color:#e6dace;
+  padding: 20px;
+  position: relative;
+  z-index: 100;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+#subtitle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#cv {
+  text-decoration: none;
+  background-color: #116dff;
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.experience { 
+  font-family: Arial, sans-serif;
+  color: #222;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.date {
+  font-size: 14px;
+  font-weight: bold;
+  color: #0033cc; 
+  margin-bottom: 5px;
+}
+
+.job-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.company, .location {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.description, .additional-info {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
