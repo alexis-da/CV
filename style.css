@@ -129,3 +129,34 @@
   top: 105vh;
   
 }
+
+@media screen and (min-width: 768px) {
+  #main{
+    width: 60vw;
+    height: 60vh;
+    margin-left: 20vw;
+    padding: 0;
+  }
+
+  #network{
+    width: 100%;
+    margin: 0;
+  }
+
+  #presentation h1{
+    font-size: 55px;
+  }
+
+  #presentation h3{
+    font-size: 25px;
+  }
+
+  #presentation p{
+    font-size: 18px;
+    line-height: 2.0em;
+  }
+
+  #contact{
+    top: 130vh;
+  }
+}
